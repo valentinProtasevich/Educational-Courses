@@ -1,0 +1,33 @@
+.container {
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid #CFCFE4;
+}
+
+.option {
+  height: 42px;
+}
+
+.MuiButtonBase-root.MuiMenuItem-root {
+  border-radius: 18px;
+}
+
+.option.selected {
+  background-color: #5FBF77;
+  color: #FFFFFF;
+  &:hover {
+    background-color: #1d612e;
+  }
+}
+
+.text {
+  font-family: 'Nunito';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  color: #39414B;
+}
+
+.text.selected {
+  color: #FFFFFF;
+}
